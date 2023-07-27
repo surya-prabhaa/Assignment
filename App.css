@@ -1,0 +1,168 @@
+.calci{
+  height: 550px;
+   width: 250px;
+  border: 2px solid black;
+  margin: 10px auto ;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  /* top: 50%;
+  left: 50%; */
+  /* position: absolute; */
+  /* transform: translate(40%,40%); */
+  
+   height: 550px;
+   width: 305px;
+  border: 2px solid black;
+  background: black;
+  border-radius: 5px;
+
+  
+}
+
+.keypad{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: minmax(60px auto);
+  height: 400px;
+  width: 250px;
+  margin: auto;
+}
+
+.co1{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  background-color: ghostwhite;
+  color: black;
+  font-weight: bold;
+}
+.co2{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  background-color: rgb(240, 200, 22);
+  color: black;
+  font-weight: bold;
+}
+.co3{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+}
+
+input[type="text"]
+{
+  width: 250px;
+  height: 75px;
+  background-color:black ;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  margin-top: 10px;
+} 
+.display{
+  width: 300px;
+  height: 100px;
+  border: 2px solid whitesmoke;
+  background-color:black ;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  font-size: 25px;
+  letter-spacing: 1px;
+  
+ 
+}
+
+#clearAll{
+  grid-column: 0/4;
+  color: white;
+  grid-row: 5;
+}
+
+.but{
+
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+  background: rgba(213, 6, 41, 0.338);
+  color: white;
+  font-weight: bold;
+}
+button{
+
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  
+  cursor: pointer;
+  background: rgba(246, 153, 13, 0.338);
+  color: white;
+}
+
+
+#result{
+  grid-column: 4/4;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  background-color: rgb(240, 200, 22);
+  color: black;
+  font-weight: bold;
+}
+
+.incdec{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Abc{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 200px;
+  border: solid 1px rgb(16, 8, 8);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+/* .mno{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.co{
+
+  height: 100px;
+  width: 200px;
+  border: solid 1px rgb(16, 8, 8);
+}
